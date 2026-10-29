@@ -148,15 +148,31 @@ data/stats.json              统计和分类标题
 data/community-stats.json    下载量与 Stars 快照
 ```
 
-## 部署到 GitHub Pages
+## 已部署
 
-仓库已经包含 `.github/workflows/pages.yml`。把它推到 GitHub 后：
+线上地址：
 
-1. 在仓库 **Settings → Pages** 把 **Source** 设为 **GitHub Actions**。
-2. 推送到 `main`，或在 Actions 里手动运行 **Deploy Harness Market**。
-3. 工作流会安装依赖、刷新目录、校验索引、生成 `dist/` 并部署。
+```text
+https://yiwen321.github.io/harness-market/
+```
 
-工作流每天 03:17 UTC **自动更新**目录、下载量和 Stars，不需要网页上的按钮。想立刻更新时，在 GitHub Actions 里手动运行 **Deploy Harness Market** 即可。页面里的索引 URL 由当前访问地址推导，所以 fork 或改名后无需改代码。
+部署方式：**Settings → Pages → Build and deployment → Deploy from a branch**，选择 `main` / `(root)`。
+
+### 更新数据
+
+当前没有开启 GitHub Actions 自动更新；数据更新后用本地命令推送即可：
+
+```sh
+npm run build:data -- --refresh
+npm run validate
+git add data
+git commit -m "Refresh plugin catalog"
+git push
+```
+
+推送后 GitHub Pages 会自动重新构建。页面里的索引 URL 由当前访问地址推导，所以 fork 或改名后无需改代码。
+
+如果需要每天自动更新，需要额外给 GitHub token 授权 `workflow` 权限，并添加 `.github/workflows/pages.yml`；当前版本没有包含它。
 
 ## 项目结构
 
@@ -180,7 +196,7 @@ data/community-stats.json    下载量与 Stars 快照
 │   ├── prepare-pages.mjs      生成 dist/
 │   ├── serve.mjs              本地静态服务器
 │   └── test-ui.mjs            Playwright 交互验收
-└── .github/workflows/pages.yml
+└── package.json
 ```
 
 ## 提交插件
