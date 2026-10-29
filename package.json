@@ -1,0 +1,23 @@
+{
+  "name": "harness-market",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A GitHub-native marketplace for DeepSeek Harness plugins.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build:data": "node scripts/build-data.mjs",
+    "validate": "node scripts/validate-market.mjs",
+    "build:vendor": "esbuild scripts/semver-entry.js --bundle --minify --format=iife --global-name=semver --banner:js=\"/*! semver | ISC | https://github.com/npm/node-semver */\" --outfile=vendor/semver.js",
+    "prepare:pages": "node scripts/prepare-pages.mjs",
+    "test:ui": "node scripts/test-ui.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.64.1",
+    "semver": "^7.7.3"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}

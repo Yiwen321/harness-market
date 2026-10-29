@@ -1,0 +1,110 @@
+{
+  "updated": "2026-10-29",
+  "picks": [
+    {
+      "name": "dsh-context",
+      "reason": {
+        "zh": "上下文花在哪了，一眼看清。",
+        "en": "See exactly where your context window goes."
+      }
+    },
+    {
+      "name": "dsh-fast-mode",
+      "reason": {
+        "zh": "少绕路，多干活：合并可并行的工具调用。",
+        "en": "Fewer detours: merge parallel tool calls and trim busywork."
+      }
+    },
+    {
+      "name": "dsh-mobile-plugin",
+      "reason": {
+        "zh": "把 DSH 装进手机，随时接管任务。",
+        "en": "Put DSH on your phone and pick up tasks anywhere."
+      }
+    },
+    {
+      "name": "dsh-pet-plugin",
+      "reason": {
+        "zh": "一只住在窗口里的桌宠，让等待也有表情。",
+        "en": "A desk pet that gives long runs a little personality."
+      }
+    },
+    {
+      "name": "@ratel-works/dsh-lumina",
+      "reason": {
+        "zh": "给界面加一层恰到好处的流光。",
+        "en": "A tasteful layer of light for the interface."
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "focus",
+      "title": {
+        "zh": "上下文与节奏",
+        "en": "Context & cadence"
+      },
+      "description": {
+        "zh": "让每一轮都更短、更准、更可控。",
+        "en": "Shorter, sharper, more controlled turns."
+      },
+      "names": [
+        "dsh-context",
+        "dsh-fast-mode",
+        "dsh-search-index",
+        "dsh-pause-resume"
+      ]
+    },
+    {
+      "id": "remote",
+      "title": {
+        "zh": "把 DSH 带出门",
+        "en": "DSH, everywhere"
+      },
+      "description": {
+        "zh": "手机、Telegram、SSH 和 Gitee，都能接上你的 Agent。",
+        "en": "Phone, Telegram, SSH and Gitee — all wired to your agent."
+      },
+      "names": [
+        "dsh-mobile-plugin",
+        "dsh-tg-bridge",
+        "@lemoncat7/dsh-ssh",
+        "dsh-gitee-chat"
+      ]
+    },
+    {
+      "id": "craft",
+      "title": {
+        "zh": "好看，也算生产力",
+        "en": "Form is a feature"
+      },
+      "description": {
+        "zh": "让每天盯着的界面，顺眼一点。",
+        "en": "Make the surface you stare at all day feel better."
+      },
+      "names": [
+        "@ratel-works/dsh-lumina",
+        "dsh-pet-plugin",
+        "dsh-theme",
+        "@xinxing1708/dsh-codex-style"
+      ]
+    },
+    {
+      "id": "workbench",
+      "title": {
+        "zh": "搭一张自己的工作台",
+        "en": "Build your workbench"
+      },
+      "description": {
+        "zh": "工作树、多智能体、侧边栏和商店，拼成你的工作流。",
+        "en": "Worktrees, agent teams, sidebars and a store — assemble your flow."
+      },
+      "names": [
+        "dsh-worktree-space",
+        "@nanmicoder/dsh-agent-teams",
+        "dsh-better-sidebar",
+        "dshmarket"
+      ]
+    }
+  ]
+}

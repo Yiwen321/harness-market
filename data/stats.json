@@ -1,0 +1,137 @@
+{
+  "generatedAt": "2026-10-29T04:53:48.069Z",
+  "runtime": "0.2.1-rc.2",
+  "total": 3917,
+  "declared": 1037,
+  "compatible": 938,
+  "incompatible": 99,
+  "unknown": 2880,
+  "rated": 3913,
+  "downloads30d": 13963474,
+  "starsTotal": 437471,
+  "statsUpdated": "2026-10-29T04:53:48.028Z",
+  "categories": {
+    "agi": 33,
+    "ui": 733,
+    "usage": 198,
+    "theme": 141,
+    "model": 224,
+    "identity": 39,
+    "session": 276,
+    "memory": 169,
+    "tools": 543,
+    "wsl": 8,
+    "browser": 99,
+    "vision": 80,
+    "voice": 56,
+    "docs": 70,
+    "skill": 115,
+    "workflow": 240,
+    "git": 85,
+    "notify": 138,
+    "dev": 250,
+    "security": 111,
+    "remote": 134,
+    "market": 60,
+    "fun": 115
+  },
+  "categoryTitles": {
+    "agi": {
+      "en": "AGI Architecture Exploration",
+      "zh": "AGI 架构探索"
+    },
+    "ui": {
+      "en": "UI Enhancements",
+      "zh": "UI 增强"
+    },
+    "usage": {
+      "en": "Usage & Billing",
+      "zh": "用量与计费"
+    },
+    "theme": {
+      "en": "Themes & Appearance",
+      "zh": "主题与外观"
+    },
+    "model": {
+      "en": "Models & Providers",
+      "zh": "模型与账号接入"
+    },
+    "identity": {
+      "en": "Identity & Communication",
+      "zh": "身份与通信"
+    },
+    "session": {
+      "en": "Sessions & Messages",
+      "zh": "会话与消息"
+    },
+    "memory": {
+      "en": "Memory",
+      "zh": "记忆"
+    },
+    "tools": {
+      "en": "Tools & Capabilities",
+      "zh": "工具与能力"
+    },
+    "wsl": {
+      "en": "WSL & Windows Interop",
+      "zh": "WSL 与 Windows 互操作"
+    },
+    "browser": {
+      "en": "Browser & Web",
+      "zh": "浏览器与网页"
+    },
+    "vision": {
+      "en": "Vision & Multimodal",
+      "zh": "视觉与多模态"
+    },
+    "voice": {
+      "en": "Voice & Audio",
+      "zh": "语音与音频"
+    },
+    "docs": {
+      "en": "Docs & Rendering",
+      "zh": "文档与渲染"
+    },
+    "skill": {
+      "en": "Skills",
+      "zh": "技能包"
+    },
+    "workflow": {
+      "en": "Workflow & Automation",
+      "zh": "工作流与自动化"
+    },
+    "git": {
+      "en": "Git & Code Review",
+      "zh": "Git 与代码评审"
+    },
+    "notify": {
+      "en": "Notifications & Integrations",
+      "zh": "通知与集成"
+    },
+    "dev": {
+      "en": "Development & Runtime",
+      "zh": "开发与运行时"
+    },
+    "security": {
+      "en": "Security & Permissions",
+      "zh": "安全与权限"
+    },
+    "remote": {
+      "en": "Remote & Mobile",
+      "zh": "远程与移动端"
+    },
+    "market": {
+      "en": "Plugin Markets & Managers",
+      "zh": "插件市场与管理"
+    },
+    "fun": {
+      "en": "Just for Fun",
+      "zh": "娱乐"
+    }
+  },
+  "sizes": {
+    "market": 3122562,
+    "compatible": 781974,
+    "plugins": 3148698
+  }
+}
